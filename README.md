@@ -1,7 +1,7 @@
 CommonMark
 ==========
 
-CommonMark is a rationalized version of Markdown syntax,
+CommonMark#is a rationalized version of Markdown syntax,
 with a [spec][the spec] and BSD-licensed reference
 implementations in C and JavaScript.
 
@@ -193,3 +193,4 @@ The spec was written by John MacFarlane, drawing on
 Since the first announcement, many people have contributed ideas.
 Kārlis Gaņģis was especially helpful in refining the rules for
 emphasis, strong emphasis, links, and images.
+ 
