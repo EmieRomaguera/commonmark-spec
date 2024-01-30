@@ -1,5 +1,5 @@
 SITE=_site
-SPECVERSION=$(shell perl -ne 'print $$1 if /^version: *([0-9.]+)/' spec.txt)
+SPECVERSION=$(shell perl -ne 'print $$1 if /^version:  ([0-9.]+)/' spec.txt)
 
 .PHONY: all clean npm
 
@@ -27,3 +27,4 @@ npm:
 
 clean:
 	-rm spec.tex spec.md spec.html
+ 
